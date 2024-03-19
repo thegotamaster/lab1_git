@@ -1,6 +1,4 @@
-a = 7
-b = 8
-result1 = a + b
-print(result1)
-result2 = a - b
-print(result2)
+#перевод градусов Цельсия в градусы Фаренгейта
+def celcius_to_fahrenheit(celsius):
+    return (celsius * 9/5) + 32
+
