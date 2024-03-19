@@ -8,3 +8,8 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n-1)
+
+#вычисление объема сферы
+import math
+def sphere_volume(radius):
+    return (4/3) * math.pi * pow(radius, 3)
