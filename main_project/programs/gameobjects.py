@@ -1,6 +1,4 @@
-a = 5
-b = 4
-result1 = a + b
-print(result1)
-result2 = a - b
-print(result2)git
+#определение високосного года
+def is_leap_year(year):
+    return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+
