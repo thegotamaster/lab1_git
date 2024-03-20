@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: 'Moscow Metro';
+    src: url('font.otf');
+ 
+  }
+body{
+    background:  no-repeat center;
+    background-image: url('bg.jpg');
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0 0 40px 0;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Moscow Metro';
+    letter-spacing: 3px;
+    margin-bottom: 100px;
+}
+.gradient-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Moscow Metro';
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+  .gradient-button:hover {
+    background-position: right center;
+  }
